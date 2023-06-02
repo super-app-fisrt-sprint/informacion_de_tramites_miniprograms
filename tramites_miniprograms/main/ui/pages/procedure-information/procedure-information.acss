@@ -1,0 +1,16 @@
+.page-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-container {
+  max-width: 86px;
+  height: 96px;
+  width: 28%;
+  box-shadow: 3px 3px 15px #2f2f6026;
+  border-radius: 10px;
+}
+
+.page-main {
+  padding: 0rpx 30rpx 60rpx 30rpx;
+}

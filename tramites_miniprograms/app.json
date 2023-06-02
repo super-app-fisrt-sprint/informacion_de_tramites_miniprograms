@@ -1,17 +1,10 @@
 {
   "subPackageBuildType": "shared",
   "pages": [
-    "pages/procedure-information/procedure-information",
-    "pages/index/index",
-    "pages/contract-assignment/contract-assignment",
-    "pages/plan-management/plan-management",
-    "pages/transfer/transfer",
-    "pages/sim-management/sim-management"
+    "main/ui/pages/procedure-information/procedure-information",
+    "main/ui/pages/index/index"
   ],
   "window": {
-    "defaultTitle": "SuperApp Claro",
-    "titleBarColor": "#121D24",
-    "gestureBack": "YES",
-    "showTitleLoading": "YES"
+    "defaultTitle": "My App"
   }
 }
