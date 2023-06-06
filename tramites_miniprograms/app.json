@@ -1,8 +1,10 @@
 {
   "subPackageBuildType": "shared",
   "pages": [
+    "main/ui/pages/contract-assigment/contract-assigment",
     "main/ui/pages/procedure-information/procedure-information",
-    "main/ui/pages/index/index"
+    "main/ui/pages/index/index",
+    "main/ui/pages/plan-management/plan-management"
   ],
   "window": {
     "defaultTitle": "My App"

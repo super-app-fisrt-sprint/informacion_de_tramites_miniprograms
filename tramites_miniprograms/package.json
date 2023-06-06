@@ -3,6 +3,7 @@
     "test": "jest --coverage"
   },
   "dependencies": {
+    "antd-mini": "^1.8.3",
     "jest": "^29.5.0"
   },
   "jest": {
@@ -15,5 +16,9 @@
     "collectCoverageFrom": [
       "**/main/domain/**/*.{js,jsx}"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-standard": "^17.1.0"
   }
 }

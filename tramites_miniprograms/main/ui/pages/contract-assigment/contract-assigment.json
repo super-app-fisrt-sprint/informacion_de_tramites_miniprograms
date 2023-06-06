@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "card-button": "/main/ui/components/card-button/card-button",
+    "tabs": "antd-mini/es/Tabs/index",
+    "custom-button": "/main/ui/components/custom-button/custom-button",
+    "claro-ol-list": "/main/ui/components/claro-ol-list/claro-ol-list"
+  },
+  "styleIsolation": "apply-shared"
+}
