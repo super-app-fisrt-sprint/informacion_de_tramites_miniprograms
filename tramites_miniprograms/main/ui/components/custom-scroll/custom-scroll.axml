@@ -1,0 +1,80 @@
+<view class="scroll-container">
+  <scroll-view class="scroll-content" scroll-y="{{true}}">
+    <view class="h4">
+      {{title1}}
+    </view>
+    <view class="claro-small-padding-text">
+      {{text1}}
+    </view>
+    <block a:for="{{ paragraphs }}" a:key="item">
+      <view class="{{item.isbold ? 'highlighter' : 'claro-small-padding-text'}}">
+        {{item.text}}
+      </view>
+    </block>
+    <block a:for="{{ list }}" a:key="*item">
+      <view class="ol-list {{padding ? 'claro-padding-text' : 'claro-small-padding-text'}}">
+        <view a:if="{{ isCustomNumber }}" class="h2 claro-red-text number">
+          {{customNumber}}.
+        </view>
+        <view>
+          {{index + 1}}.
+          {{item.text}}
+          <view
+            data-link="{{item.link}}"
+            class="external-link redirect-text"
+            onTap="goToExternalPage"
+          >
+            <view a:if="{{ item.textlink }}">
+              Ingresa aqui
+            </view>
+            <view a:else>
+              {{item.link}}
+            </view>
+          </view>
+          <view a:if="{{item.reminder}}" class="claro-small-padding-text">
+            <text class="item-reminder">Recuerda: </text>{{item.reminder}}
+          </view>
+      </view>
+    </view>
+    </block>
+    <view class="claro-small-padding-text highlighter" a:if="{{ mediumText }}">
+      {{ mediumText }}
+    </view>
+    <block a:for="{{ secondlist }}" a:key="*item">
+      <view class="ol-list {{padding ? 'claro-padding-text' : 'claro-small-padding-text'}}">
+        <view>
+          {{index + 1}}.
+          {{item.text}}
+          <view
+            data-link="{{item.link}}"
+            class="external-link redirect-text"
+            onTap="goToExternalPage"
+          >
+            <view a:if="{{ item.textlink }}">
+              Ingresa aqui
+            </view>
+            <view a:else>
+              {{item.link}}
+            </view>
+          </view>
+          <view a:if="{{item.reminder}}" class="claro-small-padding-text">
+            <text class="item-reminder">Recuerda: </text>{{item.reminder}}
+          </view>
+      </view>
+    </view>
+    </block>
+    <block a:for="{{ finalparagraphs }}" a:key="item">
+      <view class="{{item.isbold ? 'highlighter' : 'claro-small-padding-text'}}">
+        {{item.text}}
+      </view>
+    </block>
+    
+   <view class="h4" a:if="{{ text2 }}">
+      {{ text2 }}
+    </view>
+    <view class="claro-small-padding-text">
+      {{ invitation }}
+    </view>
+
+  </scroll-view>
+</view>

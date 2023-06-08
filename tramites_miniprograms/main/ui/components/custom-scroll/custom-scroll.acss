@@ -1,0 +1,80 @@
+.scroll-content {
+  border: 18px solid white;
+  max-width: 300px;
+  height: 50vh;
+  overflow: scroll;
+  border-radius: 20px;
+  margin: 0 auto 15px;
+  box-shadow: 3px 3px 15px #2F2F6026;
+}
+
+.h4 {
+  font-weight: bold;
+  font-size: 32rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px;
+}
+
+.h2 {
+  font-weight: bold;
+  font-size: 42rpx;
+}
+
+.claro-gray-300-text {
+  color: #9d9d9d;
+}
+
+.claro-red {
+  background: #db493e;
+}
+
+.claro-padding-text {
+  padding: 54rpx 40rpx 0rpx 40rpx;
+}
+
+.claro-small-padding-text {
+  padding: 20rpx 0 0rpx;
+}
+
+.text {
+  margin-left: 15rpx;
+}
+
+.claro-black-text {
+  color: #000000;
+}
+
+.header-text {
+  padding: 0rpx 20rpx;
+}
+
+.redirect-container {
+  width: 300rpx;
+  position: relative;
+}
+
+.redirect-text {
+  color: #06b0c5;
+  text-decoration: underline;
+  padding: 20rpx 0 0rpx;
+}
+
+.external-link {
+  cursor: pointer;
+}
+
+.footer {
+  padding: 40rpx 30rpx 70rpx 30rpx;
+}
+
+.item-reminder {
+  font-weight: bolder;
+}
+
+.highlighter {
+  padding: 20rpx 0 0rpx;
+  font-weight: bolder;
+}

@@ -34,23 +34,6 @@
   padding: 54rpx 20rpx 0rpx 20rpx;
 }
 
-.redirect-text::after {
-  width: 20rpx;
-  height: 20rpx;
-  display: block;
-  content: ">";
-  position: absolute;
-  padding: 6rpx;
-  margin: 54rpx 20rpx 0rpx 20rpx;
-  bottom: 10rpx;
-  right: 20rpx;
-  background-color: #06b0c5;
-  font-size: 20rpx;
-  text-align: center;
-  border-radius: 12px;
-  color: white;
-}
-
 .external-link {
   cursor: pointer;
 }

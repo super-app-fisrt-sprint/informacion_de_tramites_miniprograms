@@ -1,0 +1,94 @@
+.h2 {
+  font-weight: bold;
+  font-size: 42rpx;
+}
+
+.claro-gray-300-text {
+  color: #9d9d9d;
+}
+
+.claro-red {
+  background: #db493e;
+}
+
+.claro-padding-text {
+  padding: 54rpx 40rpx 0rpx 40rpx;
+}
+
+.claro-small-padding-text {
+  padding: 20rpx 0 0rpx;
+}
+
+.text {
+  margin-left: 15rpx;
+}
+
+.claro-black-text {
+  color: #000000;
+}
+
+.header-text {
+  padding: 0rpx 20rpx;
+}
+
+.redirect-container {
+  width: 300rpx;
+  position: relative;
+}
+
+.redirect-text {
+  color: #06b0c5;
+  text-decoration: underline;
+  padding: 20rpx 0 0rpx;
+}
+
+.external-link {
+  cursor: pointer;
+}
+
+.footer {
+  padding: 40rpx 30rpx 70rpx 30rpx;
+}
+
+.item-reminder {
+  font-weight: bolder;
+}
+
+.tab-panel {
+  width: 100%;
+  height: 100%;
+}
+
+.ant-tabs { 
+  height: 100vh;
+  overflow: scroll;
+  position: fixed;
+}
+
+.ant-tabs-content {
+  margin: 41px auto 0;
+  background-color: unset;
+}
+
+.ant-tabs-bar {
+  background-color: #f7f7f7;
+}
+
+.ant-tabs-bar-underline {
+  border-bottom: 0px;
+}
+
+.ant-tabs-bar-basic.ant-tabs-bar-active:after {
+  background-color: #DA291C;
+}
+
+.ant-tabs-bar-basic-title {
+  color: #187385;
+}
+
+.footer-tab-0 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 101px 55px 0;
+}

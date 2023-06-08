@@ -1,0 +1,75 @@
+<view class="container">
+  <web-view a:if="{{ showWebView }}" src="{{webViewUrl}}" />
+  <custom-procedure-header
+    title="Cesión de contrato"
+  ></custom-procedure-header>
+  <tabs
+    items="{{items}}"
+    current="{{current}}"
+    onChange="onChange"
+    tabBarActiveTextColor="#187385"
+    activeStyle="color: #187385;"
+ >
+  <scroll-view
+    id="scroll view"
+    scrollTop="{{scrollTop}}"
+    scroll-y="{{true}}"
+    scroll-with-animation="{{true}}"
+    scroll-animation-duration="{{300}}"
+    class="tabs-view"
+  >
+  <view class="view-scroll">
+    <view class="content">
+      <view class="content-main" a:if="{{ current === 0 }}">
+
+        <custom-scroll
+          title1="¿Cómo puedo realizar la cesión de contrato?"
+          text1="Si eres atendido por un asesor de servicio por favor comunícate con él para realizar el trámite. Para todos los demás casos debes tener en cuenta lo siguiente:"
+          paragraphs="{{[
+            {text: 'La línea a ceder debe tener mínimo una antigüedad de 2 meses. La Empresa que cede la línea como la que recibe debe estar al día en sus facturas.', isbold: true},
+            {text: 'Deben acercarse a un centro de atención y ventas, los representantes legales o perfilados especiales de ambas empresas y en caso del cedente puede ser un tercero autorizado. Ten en cuenta la siguiente documentación mínima requerida:', isbold: false}
+          ]}}"
+          list="{{ mobileList }}"
+          finalparagraphs="{{[
+            {text: 'Aplica para cesiones de Empresa a Empresa, Empresa a Persona Natural y de Persona Natural a Empresa.', isbold: true},
+            {text: 'Ten en cuenta que se hará un estudio en el centro de Atención y Ventas CAV, para determinar que se pueda realizar la cesión con estos documentos o se requieran anexar algunos soportes adicionales.'},
+            {text: 'Para conocer el Centro de Atención y ventas más cercano, te invitamos a que consultes en el siguiente link:'},
+            {text: 'https://www.claro.com.co/personas/cavs/', isbold: true}     
+          ]}}"
+          invitation="Encuentra el punto más cercano en:"
+        ></custom-scroll>
+      </view>
+
+     
+
+      <view class="content-main" a:if="{{ current === 1 }}">
+        <custom-scroll
+          title1="¿Cómo puedo realizar la cesión de contrato?"
+          text1=" Si eres atendido por un consultor Comercial, por favor comunícate con él para realizar el trámite. Para todos los demás casos debes tener en cuenta lo siguiente:"
+          list="{{ fixedList }}"
+          secondlist="{{ documentsList }}"
+          mediumText="Remitiendo la siguiente documentación básica requerida:"
+          finalparagraphs="{{[ {text: 'Aplica para cesiones de Empresa a Empresa', isbold: true} ]}}"
+        >
+          
+        </custom-scroll>
+        
+      </view>
+    </view>
+    <view a:if="{{ current === 0 }}">
+      <view class="footer-tab-0">
+        <custom-button
+          text="Ver puntos de atención"
+          iconUrl="/main/ui/assets/icons/home-pin.svg"
+          size="large"
+          onCustomButtonTap="handleCustomButtonTap"
+        >
+        </custom-button>
+      </view>
+    </view>
+  </view>
+  </scroll-view>
+  
+</tabs>
+
+</view>

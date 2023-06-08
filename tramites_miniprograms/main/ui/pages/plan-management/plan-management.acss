@@ -1,0 +1,30 @@
+.h3 {
+  font-weight: bold;
+  font-size: 36rpx;
+}
+
+.h4 text {
+  text-align: center;
+}
+
+.cesion-contract {
+  border: 18px solid white;
+  max-width: 300px;
+  height: 50vh;
+  overflow: scroll;
+  border-radius: 20px;
+  margin: 41px auto;
+  box-shadow: 3px 3px 15px #2F2F6026;
+  background-color: white;
+}
+
+.scroll-content {
+  background-color: #fff;
+}
+
+.footer-tab-0 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 101px 55px 0;
+}

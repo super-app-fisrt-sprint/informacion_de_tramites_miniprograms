@@ -1,0 +1,24 @@
+<view class="container">
+  <web-view a:if="{{ showWebView }}" src="{{webViewUrl}}" />
+  <custom-procedure-header
+    title="Cambio de SIM card"
+  ></custom-procedure-header>
+    <custom-scroll 
+      title1="¿Cómo hago el cambio de SIM card para mi empresa?"
+      text1="Para realizar el cambio de SIM card para tu empresa o negocio, ten en cuenta: "
+      list="{{ changeSimList }}"
+      text2="Para trámites realizados en los Centros de Atención y Ventas CAV, se realizará una previa validación para determinar que se pueda hacer el trámite de manera exitosa."
+      invitation="Te invitamos a consultar aquí el Centro de Atención y Ventas más cercano:"
+      
+    >
+  </custom-scroll>
+  <view class="footer-tab-0">
+    <custom-button
+      text="Ver puntos de atención"
+      iconUrl="/main/ui/assets/icons/home-pin.svg"
+      size="large"
+      onCustomButtonTap="handleCustomButtonTap"
+    >
+    </custom-button>
+  </view>
+</view>

@@ -1,0 +1,18 @@
+<view class="container">
+  <custom-procedure-header
+    title="Información de Trámites"
+    subtitle="Gestiona tus trámites"
+  ></custom-procedure-header>
+    <view class="page-main">
+      <block a:for="{{ proceduresMenu }}" a:key="*item">
+        <card-button
+          id="{{item.id}}"
+          iconUrl="{{item.iconUrl}}"
+          text="{{item.text}}"
+          onButtonTap=goToPage
+          class="card-item"
+        >
+        </card-button>
+      </block>
+    </view>
+</view>
