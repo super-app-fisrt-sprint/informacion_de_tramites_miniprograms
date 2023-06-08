@@ -1,3 +1,23 @@
+.scroll-content {
+  border: 18px solid white;
+  max-width: 300px;
+  height: 50vh;
+  overflow: scroll;
+  border-radius: 20px;
+  margin: 0 auto 15px;
+  box-shadow: 3px 3px 15px #2F2F6026;
+}
+
+.h4 {
+  font-weight: bold;
+  font-size: 32rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 20px;
+}
+
 .h2 {
   font-weight: bold;
   font-size: 42rpx;
@@ -54,41 +74,7 @@
   font-weight: bolder;
 }
 
-.tab-panel {
-  width: 100%;
-  height: 100%;
-}
-
-.ant-tabs { 
-  height: 100vh;
-  overflow: scroll;
-  position: fixed;
-}
-
-.ant-tabs-content {
-  margin: 41px auto 0;
-  background-color: unset;
-}
-
-.ant-tabs-bar {
-  background-color: #f7f7f7;
-}
-
-.ant-tabs-bar-underline {
-  border-bottom: 0px;
-}
-
-.ant-tabs-bar-basic.ant-tabs-bar-active:after {
-  background-color: #DA291C;
-}
-
-.ant-tabs-bar-basic-title {
-  color: #187385;
-}
-
-.footer-tab-0 {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 101px 55px 0;
+.highlighter {
+  padding: 20rpx 0 0rpx;
+  font-weight: bolder;
 }

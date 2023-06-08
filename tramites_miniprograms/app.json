@@ -1,12 +1,15 @@
 {
   "subPackageBuildType": "shared",
   "pages": [
-    "main/ui/pages/contract-assigment/contract-assigment",
     "main/ui/pages/procedure-information/procedure-information",
+    "main/ui/pages/plan-management/plan-management",
+    "main/ui/pages/contract-assigment/contract-assigment",
     "main/ui/pages/index/index",
-    "main/ui/pages/plan-management/plan-management"
+    "main/ui/pages/plan-management/redirectToWeb/redirectToWeb",
+    "main/ui/pages/transfer/transfer",
+    "main/ui/pages/sim-management/sim-management"
   ],
   "window": {
-    "defaultTitle": "My App"
+    "defaultTitle": "Mi claro"
   }
 }

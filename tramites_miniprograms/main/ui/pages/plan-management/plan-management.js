@@ -25,10 +25,15 @@ Page({
     };
     return externalPages[link]();
   },
+  
   handleCustomButtonTap() {
     return this.setData({
       showWebView: true,
       webViewUrl: "https://www.claro.com.co/personas/cavs/"
     });
+  },
+
+  onCustomButtonTap(e) {
+    console.log(e)
   }
 });

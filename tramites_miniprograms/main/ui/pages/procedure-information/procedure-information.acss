@@ -14,3 +14,19 @@
 .page-main {
   padding: 0rpx 30rpx 60rpx 30rpx;
 }
+
+.h3 {
+  font-weight: bold;
+  font-size: 36rpx;
+}
+
+.subtitle {
+  width: 100%;
+}
+
+.footer-tab-0 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 101px 55px 0;
+}

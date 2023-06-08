@@ -10,13 +10,12 @@
 .button {
   min-height: 100rpx;
   padding: 0rpx 70rpx 0rpx 70rpx;
+  border-radius: 20rpx;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  height: 49px;
-  border-radius: 44px;
 }
 
 .small {
@@ -48,10 +47,13 @@
 .button-text {
   margin: 0rpx 0rpx 0rpx 20rpx;
   color: #ffff;
-  padding-top: 18px;
-  font-weight: 500;
 }
 
 .scroll-content {
   background-color: #ffff;
+}
+
+.button {
+  height: 49px;
+  border-radius: 44px;
 }

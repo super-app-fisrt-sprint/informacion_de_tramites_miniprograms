@@ -1,9 +1,8 @@
 <view class="container">
-    <rich-text nodes="{{nodes}}" class="header-title">
-    </rich-text>
-    <view class="h4 claro-gray-text title-description">
-      Conoce la documentación necesaria y los pasos para gestionar tus procesos.
-    </view>
+  <custom-procedure-header
+    title="Información de Trámites"
+    subtitle="Gestiona tus trámites"
+  ></custom-procedure-header>
     <view class="page-main">
       <block a:for="{{ proceduresMenu }}" a:key="*item">
         <card-button

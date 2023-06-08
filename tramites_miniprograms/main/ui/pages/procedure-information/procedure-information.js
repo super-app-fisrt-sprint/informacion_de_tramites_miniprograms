@@ -3,18 +3,6 @@ Page({
     nodes: [
       {
         name: "span",
-        attrs: {
-          style: "color: ##404040;"
-        },
-        children: [
-          {
-            type: "text",
-            text: "Información de Trámites"
-          }
-        ]
-      },
-      {
-        name: "span",
         children: [
           {
             type: "text",
@@ -50,12 +38,12 @@ Page({
     const navigates = {
       contract: () =>
         my.navigateTo({
-          url: "/pages/contract-assignment/contract-assignment"
+          url: "/main/ui/pages/contract-assigment/contract-assigment"
         }),
       plan: () =>
-        my.navigateTo({ url: "/pages/plan-management/plan-management" }),
-      transfer: () => my.navigateTo({ url: "/pages/transfer/transfer" }),
-      sim: () => my.navigateTo({ url: "/pages/sim-management/sim-management" })
+        my.navigateTo({ url: "/main/ui/pages/plan-management/plan-management" }),
+      transfer: () => my.navigateTo({ url: "/main/ui/pages/transfer/transfer" }),
+      sim: () => my.navigateTo({ url: "/main/ui/pages/sim-management/sim-management" })
     };
     const pageName = e.id;
     return navigates[pageName]();

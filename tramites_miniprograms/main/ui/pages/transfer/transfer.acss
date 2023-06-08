@@ -1,0 +1,11 @@
+.button {
+  height: 49px;
+  border-radius: 44px;
+}
+
+.footer-tab-0 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 101px 55px 0;
+}

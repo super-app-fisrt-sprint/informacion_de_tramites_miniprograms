@@ -1,0 +1,8 @@
+<view class="header-container">
+  <view class="h1 header-title claro-gray-text">
+    {{ title }}
+  </view>
+  <view class="header-subtitle" a:if="{{ subtitle }}">
+    {{ subtitle }}
+  </view>
+</view>
