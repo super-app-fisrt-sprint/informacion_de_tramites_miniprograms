@@ -3,7 +3,8 @@
     "card-button": "/main/ui/components/mini-card-button/card-button",
     "custom-button": "/main/ui/components/custom-button/custom-button",
     "custom-header": "/main/ui/components/custom-header/custom-header",
-    "custom-procedure-header": "/main/ui/components/custom-procedure-header/custom-procedure-header"
+    "custom-procedure-header": "/main/ui/components/custom-procedure-header/custom-procedure-header",
+    "header-image": "/main/ui/components/headerImage/headerImage"
   },
   "styleIsolation": "apply-shared"
 }

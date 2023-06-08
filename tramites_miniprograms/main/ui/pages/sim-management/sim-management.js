@@ -2,6 +2,8 @@ Page({
   data: {
     showWebView: false,
     webViewUrl: "",
+    titleBarHeight: 0,
+    statusBarHeight: 0,
     changeSimList: [
       {
         text:
@@ -25,6 +27,14 @@ Page({
       }
     ]
   },
+  onLoad() {
+    const { titleBarHeight, statusBarHeight } = my.getSystemInfoSync();
+    this.setData({
+      titleBarHeight,
+      statusBarHeight,
+    });
+  },
+  
   handleCustomButtonTap() {
     this.setData({
       showWebView: true,

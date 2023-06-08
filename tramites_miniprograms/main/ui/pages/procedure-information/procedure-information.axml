@@ -1,4 +1,5 @@
-<view class="container">
+<header-image image="../../assets/logo-claro-blanco.svg" style="height:{{titleBarHeight + statusBarHeight + 15}}px" />
+<view class="container" style="padding-top: {{titleBarHeight + statusBarHeight + 25}}px">
   <custom-procedure-header
     title="Información de Trámites"
     subtitle="Gestiona tus trámites"

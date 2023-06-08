@@ -1,7 +1,16 @@
 Page({
   data: {
+    titleBarHeight: 0,
+    statusBarHeight: 0,
     showWebView: false,
     webViewUrl: ""
+  },
+  onLoad() {
+    const { titleBarHeight, statusBarHeight } = my.getSystemInfoSync();
+    this.setData({
+      titleBarHeight,
+      statusBarHeight,
+    });
   },
   goToExternalPage(e) {
     const { link } = e.target.dataset;
@@ -15,7 +24,7 @@ Page({
         this.setData({
           showWebView: true,
           webViewUrl:
-            "http://e-services.telmexla.com.co/Pages/Default.aspx?ReturnUrl=%2f"
+            "https://e-services.telmexla.com.co/Pages/Default.aspx?ReturnUrl=%2f"
         }),
       claroCloud: () =>
         this.setData({
