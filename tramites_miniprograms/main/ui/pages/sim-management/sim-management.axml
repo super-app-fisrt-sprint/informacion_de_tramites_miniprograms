@@ -1,4 +1,5 @@
-<view class="container">
+<header-image image="../../assets/logo-claro-blanco.svg" style="height:{{titleBarHeight + statusBarHeight + 15}}px" />
+<view class="container" style="padding-top: {{titleBarHeight + statusBarHeight + 25}}px">
   <web-view a:if="{{ showWebView }}" src="{{webViewUrl}}" />
   <custom-procedure-header
     title="Cambio de SIM card"

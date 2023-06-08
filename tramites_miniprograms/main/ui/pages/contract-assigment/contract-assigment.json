@@ -5,7 +5,8 @@
     "claro-ol-list": "/main/ui/components/claro-ol-list/claro-ol-list",
     "custom-procedure-header": "/main/ui/components/custom-procedure-header/custom-procedure-header",
     "custom-scroll": "/main/ui/components/custom-scroll/custom-scroll",
-    "custom-button": "/main/ui/components/custom-button/custom-button"
+    "custom-button": "/main/ui/components/custom-button/custom-button",
+    "header-image": "/main/ui/components/headerImage/headerImage"
   },
   "styleIsolation": "apply-shared"
 }

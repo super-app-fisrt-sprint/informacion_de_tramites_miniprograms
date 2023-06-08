@@ -1,6 +1,8 @@
 Page({
   data: {
     current: 0,
+    titleBarHeight: 0,
+    statusBarHeight: 0,
     items: [
       {
         title: 'Soluciones fijas',
@@ -63,7 +65,14 @@ Page({
       }
     ],
   },
-  onLoad() {},
+  
+  onLoad() {
+    const { titleBarHeight, statusBarHeight } = my.getSystemInfoSync();
+    this.setData({
+      titleBarHeight,
+      statusBarHeight,
+    });
+  },
   onChange(current) {
     this.setData({
       current,

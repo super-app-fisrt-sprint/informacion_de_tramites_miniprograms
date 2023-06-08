@@ -62,7 +62,7 @@
 .ant-tabs { 
   height: 100vh;
   overflow: scroll;
-  position: fixed;
+  position: relative;
 }
 
 .ant-tabs-content {
@@ -90,5 +90,5 @@
   position: absolute;
   left: 0;
   right: 0;
-  margin: 101px 55px 0;
+  margin: 0 55px 0;
 }

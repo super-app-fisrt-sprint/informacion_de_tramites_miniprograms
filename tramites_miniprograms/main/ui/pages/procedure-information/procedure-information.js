@@ -1,5 +1,7 @@
 Page({
   data: {
+    titleBarHeight: 0,
+    statusBarHeight: 0,
     nodes: [
       {
         name: "span",
@@ -33,6 +35,13 @@ Page({
         text: "Cambio de SIM card"
       }
     ]
+  },
+  onLoad() {
+    const { titleBarHeight, statusBarHeight } = my.getSystemInfoSync();
+    this.setData({
+      titleBarHeight,
+      statusBarHeight,
+    });
   },
   goToPage(e) {
     const navigates = {

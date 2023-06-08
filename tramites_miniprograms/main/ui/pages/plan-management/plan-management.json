@@ -2,7 +2,8 @@
   "usingComponents": {
     "custom-scroll": "/main/ui/components/custom-scroll/custom-scroll",
     "custom-button": "/main/ui/components/custom-button/custom-button",
-    "custom-procedure-header": "/main/ui/components/custom-procedure-header/custom-procedure-header"
+    "custom-procedure-header": "/main/ui/components/custom-procedure-header/custom-procedure-header",
+    "header-image": "/main/ui/components/headerImage/headerImage"
   },
   "styleIsolation": "apply-shared"
 }
