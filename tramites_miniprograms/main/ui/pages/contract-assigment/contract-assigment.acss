@@ -62,11 +62,11 @@
 .ant-tabs { 
   height: 100vh;
   overflow: scroll;
-  position: relative;
+  position: fixed;
 }
 
 .ant-tabs-content {
-  margin: 41px auto 0;
+  margin: 43rpx auto 0;
   background-color: unset;
 }
 

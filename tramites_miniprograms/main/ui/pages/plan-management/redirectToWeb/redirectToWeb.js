@@ -9,7 +9,6 @@ Page({
       url: query.url,
       linkIndex: query.id
     });
-
   },
 
 });

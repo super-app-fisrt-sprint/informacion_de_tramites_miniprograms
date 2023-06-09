@@ -26,7 +26,15 @@ Component({
         url:  `/main/ui/pages/plan-management/redirectToWeb/redirectToWeb?url=${linkRedirect}?id=1`
 
       })
+    },
+    goToExternalUrl(e) { 
+      const linkRedirect = e.currentTarget.dataset.link
+      my.navigateTo({
+        url: `/main/ui/pages/plan-management/redirectToWeb/redirectToWeb?url=${linkRedirect}`
+      })
     }
+
   }
+  
   
 });

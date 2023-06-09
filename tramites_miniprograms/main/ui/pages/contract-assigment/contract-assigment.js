@@ -1,6 +1,7 @@
 Page({
   data: {
     current: 0,
+    showWebView: false,
     titleBarHeight: 0,
     statusBarHeight: 0,
     items: [
@@ -78,10 +79,16 @@ Page({
       current,
     });
   },
-  handleCustomButtonTap() {
+  goToExternalPage() {
     this.setData({
       showWebView: true,
       webViewUrl: "https://www.claro.com.co/personas/cavs/"
     });
   },
+  handleCustomButtonTap() {
+    my.navigateTo({
+      url: `/main/ui/pages/plan-management/redirectToWeb/redirectToWeb?url=https://www.claro.com.co/personas/cavs/`
+    })
+  },
+  
 });

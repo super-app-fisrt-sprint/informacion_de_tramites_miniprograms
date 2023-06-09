@@ -11,9 +11,8 @@ Page({
     });
   },
   handleCustomButtonTap() {
-    this.setData({
-      showWebView: true,
-      webViewUrl: "https://www.claro.com.co/personas/cavs/"
-    });
+    my.navigateTo({
+      url: `/main/ui/pages/plan-management/redirectToWeb/redirectToWeb?url=https://www.claro.com.co/personas/cavs/`
+    })
   },
 });
