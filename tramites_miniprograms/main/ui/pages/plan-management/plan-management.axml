@@ -8,9 +8,9 @@
       title1="¿Cómo puedo realizar un cambio de plan?"
       text1="Para realizar cambio de plan de las líneas de tu Empresa o Negocio, lo podrás hacer a través de los siguientes medios: "
       list="{{[
-        {text: 'A través de nuestro portal Mi Claro Empresas En la Ruta Transacciones en línea - Cambio de plan', link: 'https://miclaroempresas.claro.com.co/#/login', textlink: 'Ingresa aqui', reminder: 'Debes estar registrado. Si no lo estás, te invitamos para que te registres a través de este mismo link.'},
-        {text: 'A través del portal E-Care únicamente para Fibra óptica podrás hacer ampliaciones de ancho de banda por demanda, esto aplica solo para servicios de internet dedicado y Mpls.', link: 'http://e-services.telmexla.com.co/Pages/Default.aspx?ReturnUrl=%2f', textlink: 'Ingresa aqui', reminder: 'Debes estar registrado. Si no lo estás, te invitamos para que te registres a través de este mismo link.'},
-        {text: 'Si tu empresa es atendida por un asesor de servicio te invitamos que te comuniques con él.'},
+        {text: 'A través de nuestro portal Mi Claro Empresas En la Ruta Transacciones en línea - Cambio de plan', link: 'https://miclaroempresas.claro.com.co/#/login', textlink: 'Ingresa aquí', reminder: 'Debes estar registrado. Si no lo estás, te invitamos para que te registres a través de este mismo link.'},
+        {text: 'A través del portal E-Care únicamente para Fibra óptica podrás hacer ampliaciones de ancho de banda por demanda, esto aplica solo para servicios de internet dedicado y Mpls.', link: 'http://e-services.telmexla.com.co/Pages/Default.aspx?ReturnUrl=%2f', textlink: 'Ingresa aquí', reminder: 'Debes estar registrado. Si no lo estás, te invitamos para que te registres a través de este mismo link.'},
+        {text: 'Si tu empresa es atendida por un asesor de servicio te invitamos a que te comuniques con él.'},
         {text: 'Si tus servicios son Cloud (Servicio en la nube), puedes realizar cambios sobre los servicios contratados a través de la página:', link: 'https://www.clarocloud.com.co'}
         ]}}"
       invitation="Encuentra el punto más cercano en:"

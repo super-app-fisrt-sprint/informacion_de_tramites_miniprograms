@@ -8,11 +8,11 @@
       title1="¿Cómo puedo realizar un traslado?"
       text1="Si vas a cambiarte de sede, edificio u oficina y necesitas trasladar tus servicios, estos son los pasos que debes seguir:"
       list="{{[
-        {text: 'Debe solicitarlo directamente el representante legal o tercero autorizado. A través de nuestras líneas de atención al cliente o al correo electrónico: ', link: 'Contactopyme.co@claro.com.co.'},
+        {text: 'Debe solicitarlo directamente el representante legal o tercero autorizado. A través de nuestras líneas de atención al cliente o al correo electrónico: ', link: 'Contactopyme.co@claro.com.co'},
         {text: 'Debes confirmar la dirección completa y exacta del nuevo sitio.'},
         {text: 'Si es un edificio debes contar con los permisos de administración requeridos.'},
         {text: 'No debes tener mora en tu factura mayor a 60 días. 5. El traslado se puede realizar a cualquier destino a nivel nacional previa validación de cobertura. '},
-        {text: 'Durante este proceso es posible que se generen costos de Obra civil, estos pueden variar y se cargarán en tu siguiente factura. '},
+        {text: 'Durante este proceso es posible que se generen costos de obra civil, estos pueden variar y se cargarán en tu siguiente factura. '},
         {text: 'Aplican condiciones y restricciones.'}
       ]}}"
       invitation="Encuentra el punto más cercano en:"
