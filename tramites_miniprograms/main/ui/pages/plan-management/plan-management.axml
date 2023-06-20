@@ -1,27 +1,26 @@
 <header-image image="../../assets/logo-claro-blanco.svg" style="height:{{titleBarHeight + statusBarHeight + 15}}px" />
 <view class="container" style="padding-top: {{titleBarHeight + statusBarHeight + 25}}px">
   <web-view a:if="{{ showWebView }}" src="{{webViewUrl}}" />
-  <custom-procedure-header
-    title="Cambio de plan"
-  ></custom-procedure-header>
-    <custom-scroll 
-      title1="¿Cómo puedo realizar un cambio de plan?"
-      text1="Para realizar cambio de plan de las líneas de tu Empresa o Negocio, lo podrás hacer a través de los siguientes medios: "
-      list="{{[
+  <custom-procedure-header title="Cambio de plan">
+  </custom-procedure-header>
+  <custom-scroll
+    title1="¿Cómo puedo realizar un cambio de plan?"
+    text1="Para realizar cambio de plan de las líneas de tu Empresa o Negocio, lo podrás hacer a través de los siguientes medios: "
+    list="{{[
         {text: 'A través de nuestro portal Mi Claro Empresas En la Ruta Transacciones en línea - Cambio de plan', link: 'https://miclaroempresas.claro.com.co/#/login', textlink: 'Ingresa aquí', reminder: 'Debes estar registrado. Si no lo estás, te invitamos para que te registres a través de este mismo link.'},
         {text: 'A través del portal E-Care únicamente para Fibra óptica podrás hacer ampliaciones de ancho de banda por demanda, esto aplica solo para servicios de internet dedicado y Mpls.', link: 'http://e-services.telmexla.com.co/Pages/Default.aspx?ReturnUrl=%2f', textlink: 'Ingresa aquí', reminder: 'Debes estar registrado. Si no lo estás, te invitamos para que te registres a través de este mismo link.'},
         {text: 'Si tu empresa es atendida por un asesor de servicio te invitamos a que te comuniques con él.'},
         {text: 'Si tus servicios son Cloud (Servicio en la nube), puedes realizar cambios sobre los servicios contratados a través de la página:', link: 'https://www.clarocloud.com.co'}
         ]}}"
-      invitation="Encuentra el punto más cercano en:"
-    >
-  <claro-ol-list list="{{[{text: 'A través de nuestro portal Mi Claro Empresas En la Ruta Transacciones en línea - Cambio de plan'}]}}">
+    invitation="Encuentra el punto más cercano en:"
+  >
+    <claro-ol-list list="{{[{text: 'A través de nuestro portal Mi Claro Empresas En la Ruta Transacciones en línea - Cambio de plan'}]}}">
     </claro-ol-list>
   </custom-scroll>
   <view class="footer-tab-0">
     <custom-button
       text="Ver puntos de atención"
-      iconUrl="/main/ui/assets/icons/home-pin.svg"
+      iconUrl="/main/ui/assets/home-pin.svg"
       size="large"
       onCustomButtonTap="handleCustomButtonTap"
     >

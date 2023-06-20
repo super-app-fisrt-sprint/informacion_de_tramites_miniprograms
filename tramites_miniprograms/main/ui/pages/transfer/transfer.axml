@@ -23,7 +23,7 @@
   <view class="footer-tab-0">
     <custom-button
       text="Ver puntos de atención"
-      iconUrl="/main/ui/assets/icons/home-pin.svg"
+      iconUrl="/main/ui/assets/home-pin.svg"
       size="large"
       onCustomButtonTap="handleCustomButtonTap"
     >
