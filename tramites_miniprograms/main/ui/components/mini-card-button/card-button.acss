@@ -28,7 +28,7 @@
 .button-outlined {
   width: 200rpx;
   height: 200rpx;
-  margin: 60rpx 20rpx;
+  margin: 13px 20rpx 0;
 }
 
 .button-name {

@@ -23,7 +23,7 @@ Page({
       },
       {
         text:
-          "Si eres un tercero autorizado debes presentar el poder autenticado en una notaría, en donde se relacione(n) la(s) línea(s) a la(s) que deseas hacer el cambio de SIM card, nombre y cédula de quien lo va a realizar, fotocopia legible del representante legal y cédula original de quien hace el trámite."
+          "Si eres un tercero autorizado debes presentar el poder autenticado en una notaria, en donde se relacione(n) la(s) línea(s) a la(s) que deseas hacer el cambio de SIM card, nombre y cédula de quien lo va a realizar, fotocopia legible del representante legal y cédula original de quien hace el trámite."
       }
     ]
   },
@@ -36,9 +36,8 @@ Page({
   },
   
   handleCustomButtonTap() {
-    this.setData({
-      showWebView: true,
-      webViewUrl: "https://www.claro.com.co/personas/cavs/"
-    });
-  }
+    my.navigateTo({
+      url: `/main/ui/pages/plan-management/redirectToWeb/redirectToWeb?url=https://www.claro.com.co/personas/cavs/`
+    })
+  },
 });

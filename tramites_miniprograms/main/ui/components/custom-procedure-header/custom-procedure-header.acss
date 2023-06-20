@@ -35,3 +35,9 @@
 .header-subtitle {
   font-weight: lighter;
 }
+
+@media (min-device-width:320px) and (max-device-width:768px) {
+  .header-container {
+    padding: 20rpx 20rpx 20rpx 20rpx;
+  }
+}

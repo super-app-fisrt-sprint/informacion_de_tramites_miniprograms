@@ -2,5 +2,6 @@
   position: absolute;
   left: 0;
   right: 0;
-  margin: 101px 55px 0;
+  margin: 0.5rem 55px;
+  bottom: 0;
 }

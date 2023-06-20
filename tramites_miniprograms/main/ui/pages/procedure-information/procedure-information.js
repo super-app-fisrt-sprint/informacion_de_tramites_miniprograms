@@ -57,6 +57,7 @@ Page({
     const pageName = e.id;
     return navigates[pageName]();
   },
+  
   onShareAppMessage() {
     return {
       title: "My App",

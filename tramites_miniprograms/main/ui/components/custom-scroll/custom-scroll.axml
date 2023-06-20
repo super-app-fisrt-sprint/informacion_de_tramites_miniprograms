@@ -53,7 +53,7 @@
             <view a:if="{{ item.textlink }}">
               Ingresa aqui
             </view>
-            <view a:else>
+            <view a:else onTap="goToExternalPage">
               {{item.link}}
             </view>
           </view>
@@ -65,7 +65,9 @@
     </block>
     <block a:for="{{ finalparagraphs }}" a:key="item">
       <view class="{{item.isbold ? 'highlighter' : 'claro-small-padding-text'}}">
+        <view data-link="{{item.text}}" onTap="{{item.ontap ? 'goToExternalUrl' : null}}">
         {{item.text}}
+        </view>
       </view>
     </block>
     

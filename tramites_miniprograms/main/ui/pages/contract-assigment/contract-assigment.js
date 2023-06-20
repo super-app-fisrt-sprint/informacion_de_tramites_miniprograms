@@ -1,16 +1,15 @@
 Page({
   data: {
     current: 0,
+    showWebView: false,
     titleBarHeight: 0,
     statusBarHeight: 0,
     items: [
       {
-        title: 'Soluciones fijas',
-        content: "Paquete adquirido vigente"
+        title: 'Soluciones fijas'
       },
       {
-        title: 'Soluciones móviles',
-        content: "Paquete adquirido asdfsad"
+        title: 'Soluciones móviles'
       }
     ],
     documentsList: [
@@ -34,7 +33,7 @@ Page({
       },
       {
         text:
-          "Si el cedente autoriza a un tercero, debe traer carta autenticada en Notaría, donde el Representante legal lo autorice con poder amplio y suficiente para firmar en representación de la empresa que cede las líneas."
+          "Si el cedente autoriza a un tercero, debe traer carta autenticada en notaria, donde el representante legal lo autorice con poder amplio y suficiente para firmar en representación de la empresa que cede las líneas."
       },
       {
         text:
@@ -78,10 +77,16 @@ Page({
       current,
     });
   },
-  handleCustomButtonTap() {
+  goToExternalPage() {
     this.setData({
       showWebView: true,
       webViewUrl: "https://www.claro.com.co/personas/cavs/"
     });
   },
+  handleCustomButtonTap() {
+    my.navigateTo({
+      url: `/main/ui/pages/plan-management/redirectToWeb/redirectToWeb?url=https://www.claro.com.co/personas/cavs/`
+    })
+  },
+  
 });
